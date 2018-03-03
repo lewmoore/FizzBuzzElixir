@@ -6,7 +6,7 @@ defmodule Fizzbuzz do
 
   def fizzbuzz(number) do
     cond do
-      number == 3 ->
+      rem(number, 3) === 0 ->
         "Fizz"
     end
   end
