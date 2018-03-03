@@ -1,9 +1,5 @@
 defmodule Fizzbuzz do
 
-  def hello do
-    :world
-  end
-
   def fizzbuzz(number) do
     cond do
       rem(number, 15) === 0 ->
